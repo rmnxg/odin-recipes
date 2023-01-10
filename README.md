@@ -1,3 +1,3 @@
 # odin-recipes
-My first project in Odin. 
-My first website, which is about cooking recipes.
+My first project in Odin: a website about cooking recipes.
+(On course)
