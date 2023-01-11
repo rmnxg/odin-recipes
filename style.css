@@ -1,11 +1,6 @@
 div {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.title,
-.subtitle,
-.list {
-    text-align: center;
+    font-size: 17px;
 }
 
 #lahmacun,
@@ -21,29 +16,53 @@ div {
     height: 400px;
 }
 
+.title,
+.subtitle,
+.list {
+    text-align: center;
+    color: white;
+}
+
+.list {
+    font-weight: bold;
+}
+
+.title.index {
+    background-color: orange;
+}
+
+.list .lasagna {
+    background-color: lightgreen;
+}
+
+.list .lahmacun {
+    background-color: salmon;
+}
+
+.list .locro {
+    background-color: skyblue;
+}
+
 .title.lahmacun {
-    background-color: brown;
-    color:white;
+    background-color: red;
 }
 
 .subtitle.lahmacun {
-    background-color: greenyellow;
+    background-color: purple;
 }
 
 .title.lasagna {
-    background-color: orange;
-    color:white;
+    background-color: green;
 }
 
 .subtitle.lasagna {
-    background-color: aquamarine;
+    background-color: #D60000;
 }
 
 .title.locro {
     background-color: skyblue;
-    color: white;
 }
 
 .subtitle.locro {
-    background-color: blanchedalmond;
+    background-color: rgb(189, 46, 68);
 }
